@@ -97,6 +97,10 @@ body {}
     margin: 30px 0
 }
 
+.mg-tb-20 {
+    margin: 20px 0
+}
+
 .mg-t-30 {
     margin-top: 30px
 }
@@ -2184,7 +2188,7 @@ ul.wizard-nav-ac li .disabled {
 .modal-dialog.modal-sm .modal-content,
 .modal-dialog.modal-large .modal-content {
     border-radius: 0;
-    padding: 40px 100px
+    padding: 30px
 }
 
 .modals-default .modal-header,
@@ -2838,7 +2842,7 @@ blockquote.pull-right {
 
 ol,
 ul {
-    margin: 0;
+    margin: 0 0 0 15px;
     padding: 0
 }
 
@@ -3602,8 +3606,8 @@ hr {
 }
 
 .dataTables_filter label:after {
-    content: '\e928';
-    font-family: notika-icon;
+    content: '\f002';
+    font-family: FontAwesome;
     position: absolute;
     font-size: 14px;
     right: 0;
@@ -3621,12 +3625,12 @@ hr {
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.previous:before {
-    content: '\e903'
+    content: '\f104'
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.next:before,
 .dataTables_wrapper .dataTables_paginate .paginate_button.previous:before {
-    font-family: notika-icon;
+    font-family: FontAwesome;
     font-size: 14px;
     line-height: 35px
 }
@@ -3637,7 +3641,7 @@ hr {
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.next:before {
-    content: '\e91e'
+    content: '\f105'
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,
@@ -3993,8 +3997,8 @@ textarea.auto-size {
     top: 0;
     width: 40px;
     height: 100%;
-    content: "\e928";
-    font-family: notika-icon!important;
+    content: "\f002";
+    font-family: FontAwesome!important;
     font-size: 16px;
     padding: 12px 0 0 15px
 }
@@ -4071,7 +4075,7 @@ textarea.auto-size {
 }
 
 .chosen-select-act .chosen-container .chosen-results li.result-selected:before {
-    content: "\e906";
+    content: "\f00c";
     font-family: notika-icon!important;
     font-size: 16px
 }
@@ -5962,7 +5966,7 @@ body.box-layout {
 }
 
 .breadcomb-area {
-    margin-bottom: 30px
+    margin-bottom: 0px
 }
 
 .breadcomb-wp {
@@ -6047,3 +6051,8 @@ body.box-layout {
 .mCS-light-1.mCSB_scrollTools .mCSB_draggerRail {
     background-color: #ccc
 }
+
+/* ---- tambahan ----- */
+.center { text-align: center; }
+.notika-checked::before {  content: "\f00c"; font-family: FontAwesome !important; }
+.right { text-align: right; }
